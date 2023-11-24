@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------Header---------------------------- */
+* {
+	font-family: 'Montserrat', sans-serif;
+ }
+
+ 
+
+.scroll-on{
+  position: fixed !important;
+  background-color: #fff !important;
+  top: 0 !important;
+  width: 100%;
+
+}
+
+
+
+.navbar-nav-header a {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light-header .navbar-brand {
+	color: #0d0d0d;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+  
+}
+.navbar-light-header .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #140202;
+}
+.navbar-light-header .navbar-nav .nav-link {
+	color:  #140202;
+}
+.navbar-light-header .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color:  #140202;
+}
+.header-hig{
+    width: 100%;
+}
+
+.navbar-toggler-header {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav-header {
+		/* text-align: center; */
+		background: rgb(0, 0, 0);
+        color: #fff;
+   
+	}
+
+    .navbar-light-header .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+        color: #ffff
+    }
+    .navbar-light-header .navbar-nav .nav-link {
+        color: #ffff
+    }
+    .navbar-light-header .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #ffff
+    }
+ 
+} 
+
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 10px;
+}
+ 
+.dropdown-toggle::after {
+   transition: transform 0.50s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(10px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+  background-color: #000 !important;
+  color: #e4e4e4 !important; 
+}
+.dropdown-item a{
+  color: #fff !important;
+}
+.dropdown-item{
+  color: #fff !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+
+}
+
+.dropdown-item:hover{
+  background-color:black !important;
+  color: #fff !important;
+
+}
+
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+ 
+}
+
+.dropdown_menu-8{
+animation: downOut 300ms ease-in-out forwards
+
+}
+
+@keyframes downOut {
+0% {
+  transform: translateZ(200px) transLateY(40px)
+}
+80% {
+  transform: translateZ(-10px) transLateY(0px)
+}
+100% {
+  transform: translateZ(0px) transLateY(0px)
+}
+}
+
+/* -------priceing----------------------------------- */
+
+
+.first-2{
+    /* background-image:url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/05/h1-img-05.jpg?id=2509)
+     !important; */
+     padding-top: 300px !important;
+    padding-bottom: 300px !important; 
+    background-image: url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/05/h1-img-05.jpg?id=2509) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    
+  
+  }
+  ul{
+    list-style: none;
+    margin-left: -20px;
+    line-height: 40px;
+  }
+  .card{
+    /* padding: 70px 70px; */
+    justify-content: space-between;
+    
+  }
+  /* .topic{
+    color: white;
+    font-size: 50px;
+  } */
+  /* .topics{
+    color: white;
+    margin-bottom: 100px;
+  } */
+  .card-title{
+    margin-top: 30px;
+  }
+  .money{
+    margin-top: 50px;
+  }
+  .premium{
+    color: white;
+  }
+  .button-price{
+    display: inline-block;
+   
+    background-color:RED;
+    color:WHITE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    text-transform: none;
+    transition: all 0.6s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 100px;
+  }
+  .v{
+    height: 10px;
+    width: 2px;
+    color: white;
+  }
+  
+
+  
+.first-2 h1{
+    font-size: 60px;
+    color:#ffff ;
+    
+}
+  
+  
+
+
+  /* ------------footer---------------------- */
+
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    ul{
+    list-style: none;
+    }
+    .footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    }
+    .footer-col{
+    width: 25%;
+    /* padding: 0 15px; */
+    }
+    .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    }
+    .footer-col h4::before{
+    content: '';
+    position: absolute;
+    /* left: 0; */
+    bottom: -10px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    /* margin-left: -40px; */
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer-col .detail{
+    font-size: 14px;
+    /* margin-left: -40px; */
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer-col .detail:hover{
+    color: #ffffff;
+    cursor: pointer;
+    }
+    .middle{
+    color: #bbbbbb;
+    }
+    .middle:hover{
+    cursor: pointer;
+    color: #ffffff;
+    }
+    .footer-col ul li a:hover{
+    color: #ffffff;
+    cursor: pointer;
+    /* padding-left: 10px; */
+    }
+    .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    }
+    .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: red;
+    cursor: pointer;
+    }
+    .last{
+    color: #ffffff;
+    top: 50%;
+    }
+    .last .span{
+    margin-right: 120px;
+    }
+    .h{
+    width: 100%;
+    height: 7px;
+    border: 0 none;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    }
+    @media(max-width: 767px){
+    .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 575px){
+    .footer-col {
+    width: 100%;
+    }
+    }
+  
+    .copy-color{
+      background-color:rgb(255,70,18) ;
+      color: #fff;
+    }
+    .pf-font{
+      font-size: 12px;
+    }
+  
+  /* ------------footer-----------close----------- */
+
+
+
+
+
+  @media only screen and (max-width: 767px) {
+  
+    .pf-font{
+        font-size: 6px;
+      }
+
+  }
+    
+
+
+  
+

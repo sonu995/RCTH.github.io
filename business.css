@@ -1,0 +1,701 @@
+/* ---------imagesliding-------- */
+/* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hii{
+  background-image:url()
+  !important;
+  /* padding-top: 206px !important;
+ padding-bottom: 340px !important;  */
+ 
+ /* background-position: center !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+ display: flex;
+}
+.hii{
+  background-image:url(https://everlead.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png)
+  !important; */
+  /* padding-top: 206px !important;
+ padding-bottom: 340px !important;  */
+ 
+ /* background-position: center !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+ display: flex;
+}
+.{
+  background-image:url(https://everlead.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png)
+  !important;
+  /* padding-top: 206px !important; */
+ /* padding-bottom: 340px !important; 
+  */
+ /* background-position: center !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+ display: flex;
+} */ */ */
+.reading{
+  background: #fff;
+  height: 60px;
+  width: 150px;
+  /* font-size: 16px; */
+  font-weight: 500; 
+  
+ 
+}
+.purchase{
+  background: orangered;
+  height: 60px;
+  width: 150px;
+  /* font-size: 16px; */
+  font-weight: 500; 
+}
+.move:hover{
+  transform: translateX(60%);
+}
+.carousel-caption-header {
+  bottom: 165px;
+}
+.carousel-caption-header h1 {
+  font-size: 50px;
+}
+.carousel-caption-header a {
+  padding: 10px 15px;
+  font-size: 15px;
+}
+.carousel-item{
+  height: 500px;
+}
+
+/* -----------------subscribe------ */
+
+.box{
+  background: orangered;
+  height: 170px;
+  width: 1100px;
+  display: inline-block;
+  margin-left: -100px;
+  
+  
+}
+
+.news{
+  color: #fff;
+}
+.line{
+  border: 1px solid #fff;
+ width: 100px;
+
+}
+.name{
+  color: #fff;
+ 
+}
+
+
+
+
+/* <--------------card---------> */
+.detail{
+    color: rgb(100, 98, 98);
+}
+.impact:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.collection{
+    background-color: white;
+}
+.mini{
+    box-shadow: none;
+}
+
+/* <--------------jason-----------> */
+.joson-boder{
+    border: 1px solid rgb(255, 89, 0);
+    width: 100px;
+}
+.joson-effect{
+   
+color: rgb(255, 89, 0);
+    border-radius: 50%;
+   
+}
+.joson-effect:hover{
+    color: black;
+  
+   
+}
+
+.joson-poss{
+    top: 70px;
+    right: 10%; 
+    position: relative;
+    padding: 40px 60px 104px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 10px 0 rgba(0,0,0,.09);
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.09);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1;
+    
+}
+
+.bg-flude-poss{
+    position: relative;
+    top: 0px;
+}
+.bg-color{
+ background-color: rgb(250, 250, 250); 
+}
+.hii{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+@media (max-width:1399.5px){
+    /* <!-- ---------------------------Our specialties.----- Section-02-------------------------- --> */
+    .joson-poss{
+        padding: 41px 37px 37px;
+        top: 60px;
+        right: 12%; 
+        
+    }
+    .carousel-control-prev-1 {
+       
+        width: 53px;
+        height: 53px;
+       top: 87%;
+    
+    }
+    
+    .carousel-control-next-1 {
+      
+        width: 53px;
+        height: 53px;
+       top: 87%;
+       left: 55px;
+    }
+    /* <!-- ---------------------------Our specialties.----- Section-02------------Close-------------- --> */
+   
+  }
+  
+  
+  
+  
+  
+  @media (max-width:1199.5px){
+      /* <!-- ---------------------------Our specialties.----- Section-02-------------------------- --> */
+      .joson-poss{
+          padding: 31px 27px 27px;
+          top: 60px;
+          right: 12%; 
+          
+      }
+      .carousel-control-prev-1 {
+          width: 53px;
+          height: 53px;
+         top: 84%;
+      }
+      
+      .carousel-control-next-1 {
+          width: 53px;
+          height: 53px;
+          top: 84%;
+          left: 54px;
+      
+      }
+      /* <!-- ---------------------------Our specialties.----- Section-02-----------CLOSE--------------- --> */
+      .carousel-3{
+        height: 100vh;
+      }
+     
+  }
+  
+  
+  
+  @media (max-width:991px){
+      /* <!-- ---------------------------Our specialties.----- Section-02-------------------------- --> */
+      .joson-poss{
+          padding: 0px 15px 0px;
+          right: 25%;  
+          top: 35px;
+  }
+  .joson-poss h3{
+      font-size: 18px !important;
+  
+  }
+  .joson-poss p{
+      font-size: 14px;
+  }
+  .carousel-control-prev-1 {
+         
+      width: 53px;
+      height: 53px;
+      top: 79%;
+     
+  
+  }
+  
+  .carousel-control-next-1 {
+    
+      width: 53px;
+      height: 53px;
+      top: 79%;
+      left: 53px;
+  }
+  
+  /* <!-- -+--------------------------Our specialties.----- Section-02--------------CLOSE------------ --> */
+  
+  .carousel-3{
+    height: 100vh;
+  }
+  }
+  
+  
+          
+      
+  
+  
+  @media (max-width:767px){
+      /* <!-- ---------------------------Our specialties.----- Section-02-------------------------- --> */
+      .joson-poss{
+          padding: 40px 38px 33px;
+          right: 0%;  
+          
+      }
+      .joson-poss h3{
+          font-size: 22px !important;
+      
+      }
+      .joson-poss p{
+          font-size: 18px;
+      }
+      .carousel-control-prev-1 {
+         
+          width: 50px;
+          height: 45px;
+          top: 84%;
+         
+      
+      
+      }
+      
+      .carousel-control-next-1 {
+        
+          width: 50px;
+          height: 45px;
+          top: 84%;
+          left: 51px;
+      
+      }
+  
+
+    }
+
+    /* -------------testimonial------ */
+
+    .test{
+      color: #fff;
+    }
+    .lorem{
+      color: #fff;
+    }
+    .dash{
+      border: 1px solid rgb(255, 89, 0);
+    width: 100px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+
+
+    /* ------------circle------- */
+
+    .level {
+      /* background-color: #00d1b2; */
+      padding: 5rem 0;
+      color: #ffffff;
+      margin: 0 !important;
+     
+    }
+    
+    
+    
+    .circle{
+      background-color: orangered;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+    
+    }
+   
+    
+    .boder-circle{
+      width: 28%;
+      border: 1px solid #ffff;
+      border-radius: 50%;
+    }
+   .heading-1{
+    font-size: 30px;
+   }
+  
+  
+  
+/* <-----------------picture--------------> */
+.learning-bg{
+
+   
+    /* background: url(Images\about-img\about-us-title-img.jpg) !important; */
+      background-image:url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/06/h2-img-05.jpg)
+      !important;
+      padding-top: 206px !important;
+     padding-bottom: 340px !important; 
+     /* background-image: url(Images/coach-title-img.jpg) !important; */
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+     background-size: cover !important;
+     display: flex;
+     
+   }
+
+   .calen{
+    width: 450px;
+    background: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    }
+    .calen header{
+      display: flex;
+      align-items: center;
+      padding: 25px 30px 10px;
+      justify-content: space-between;
+      background: #3b5999;
+
+    }
+    .dating{
+      font-size: 1.45rem;
+      font-weight: 500;
+      
+    }
+    .days li .inactive{
+      color: #3b5999;
+    }
+    /* .active{
+      background: #e4405f;
+      border-radius: 20%;
+    } */
+    .arrowing span{
+      height: 38px;
+      width: 38px;
+      margin: 0 1px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 20%;
+      cursor: pointer;
+      background: #f2f2f2;
+    }
+    .arrowing span:hover{
+     background: #f2f2f2;
+    }
+    .arrowing span:last-child{
+      margin-right: -10px;
+    }
+   .calen ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+   }
+   .calen ul li{
+    position: relative;
+    width: calc(100% / 7);
+   }
+   .calender{
+    padding: 20px;
+   }
+   .calender .week{
+    background: #55acee;
+   }
+   .calender .week li{
+      font-weight: 500;
+     
+
+   }
+   .calender .days{
+    margin-bottom: 20px;
+   }
+   .calender .days li{
+    margin-top: 30px;
+    cursor: pointer;
+    
+   }
+   .calender .days li:before{
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: #f2f2f2;
+   }
+   .calender .days li:hover{
+    background: green;
+    border-radius: 10%;
+   }
+   /* .days li:hover::before{
+    background: #f2f2f2;
+   } */
+   
+/* <----------------bigcard---------------> */
+
+.teach{
+  font-size: 50px;
+}
+/* <------------keynotes---------> */
+.desc{
+    background-color: rgb(240, 240, 240);
+}
+.description{
+   font-size: 15px;
+}
+.boxing{
+    background-color: rgb(240, 240, 240);
+}
+.seat{
+    /* border: 1px solid rgb(255, 89, 0); */
+    background-color:  white;
+    width: 300px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.read{
+  background: rgb(248, 72, 8);
+  font-size: 18px;
+  font-weight: 500;
+}
+.read .move{
+  margin-left: 20px;
+}
+.read .move:hover{
+  cursor: pointer;
+  transform: translateX(50%);
+}
+.iconic{
+    background-color: rgb(240, 240, 240);
+}
+.iconic .item img{
+
+  width: 150px !important; 
+}
+.logo{
+  color: black;
+}
+
+@media(max-width: 767px){
+    .desc {
+    width: 50%;
+    margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 575px){
+    .desc {
+    width: 100%;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/* <--------------glasses------> */
+.videodetail{
+background-image:url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/05/h2-img-04.jpg)
+!important;
+padding-top: 206px !important;
+padding-bottom: 340px !important; 
+/* background-image: url(Images/coach-title-img.jpg) !important; */
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+}
+.view{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width: 767px){
+    .videodetail {
+    width: 50%;
+    margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 575px){
+    .videodetail {
+    width: 100%;
+    }
+    }
+
+   /* <----------footer-------------> */
+
+  
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    ul{
+    list-style: none;
+    }
+    .footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    }
+    .footer-col{
+    width: 25%;
+    /* padding: 0 15px; */
+    }
+    .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    }
+    .footer-col h4::before{
+    content: '';
+    position: absolute;
+    /* left: 0; */
+    bottom: -10px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    /* margin-left: -40px; */
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer-col .detail{
+    font-size: 14px;
+    /* margin-left: -40px; */
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer-col .detail:hover{
+    color: #ffffff;
+    cursor: pointer;
+    }
+    .middle{
+    color: #bbbbbb;
+    }
+    .middle:hover{
+    cursor: pointer;
+    color: #ffffff;
+    }
+    .footer-col ul li a:hover{
+    color: #ffffff;
+    cursor: pointer;
+    /* padding-left: 10px; */
+    }
+    .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    }
+    .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: red;
+    cursor: pointer;
+    }
+    .last{
+    color: #ffffff;
+    top: 50%;
+    }
+    .last .span{
+    margin-right: 120px;
+    }
+    .h{
+    width: 100%;
+    height: 7px;
+    border: 0 none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    }
+    @media(max-width: 767px){
+    .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 575px){
+    .footer-col {
+    width: 100%;
+    }
+    }
+  
+    .copy-color{
+      background-color:rgb(255,70,18) ;
+      color: #fff;
+    }
+    .pf-font{
+      font-size: 12px;
+    }
+  

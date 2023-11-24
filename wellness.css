@@ -1,0 +1,369 @@
+.girl{
+    background-image:url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/06/h2-img-05.jpg)
+    !important;
+    padding-top: 206px !important;
+   padding-bottom: 340px !important; 
+   /* background-image: url(Images/coach-title-img.jpg) !important; */
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+   display: flex;
+   
+}
+.schedule{
+    color: white;
+    font-size: 70px;
+    margin-left: 30px;
+}
+.lorem{
+    color: white;
+    margin-left: 30px;
+}
+.read{
+    color: black;
+    margin-left: 30px;
+}
+
+/* -------calender-------- */
+.calen{
+    width: 450px;
+    background: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    }
+    .calen header{
+      display: flex;
+      align-items: center;
+      padding: 25px 30px 10px;
+      justify-content: space-between;
+      background: #3b5999;
+
+    }
+    .dating{
+      font-size: 1.45rem;
+      font-weight: 500;
+      
+    }
+    .days li .inactive{
+      color: #3b5999;
+    }
+    /* .active{
+      background: #e4405f;
+      border-radius: 20%;
+    } */
+    .arrowing span{
+      height: 38px;
+      width: 38px;
+      margin: 0 1px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 20%;
+      cursor: pointer;
+      background: #f2f2f2;
+    }
+    .arrowing span:hover{
+     background: #f2f2f2;
+    }
+    .arrowing span:last-child{
+      margin-right: -10px;
+    }
+   .calen ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+   }
+   .calen ul li{
+    position: relative;
+    width: calc(100% / 7);
+   }
+   .calender{
+    padding: 20px;
+   }
+   .calender .week{
+    background: #55acee;
+   }
+   .calender .week li{
+      font-weight: 500;
+     
+
+   }
+   .calender .days{
+    margin-bottom: 20px;
+   }
+   .calender .days li{
+    margin-top: 30px;
+    cursor: pointer;
+    
+   }
+   .calender .days li:before{
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: #f2f2f2;
+   }
+   .calender .days li:hover{
+    background: green;
+    border-radius: 10%;
+   }
+
+
+   /* -------teach---------- */
+   .card{
+    box-shadow: none;
+   }
+   .july{
+    width: 55px;
+     height: 55px;
+     border: 1px solid rgb(255, 89, 0);
+     margin-top: -30px;
+     margin-left: 250px;
+     background: orangered;
+    }
+    .three-cards{
+        background-color: orangered;
+    }
+    .hii{
+        font-size: 30px;
+    }
+    .play{
+        background: #f2f2f2;
+    }
+    .hii:hover{
+        cursor: pointer;
+        color: orangered;
+    }
+
+
+    /* -----service---------------- */
+    .services {
+        background-image:url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/05/h6-img-03.jpg)
+    !important;
+    padding-top: 206px !important;
+   padding-bottom: 340px !important; 
+   /* background-image: url(Images/coach-title-img.jpg) !important; */
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+   display: flex;
+    }
+    .serving{
+        background-color: orangered;
+        width: 450px;
+        height: 400px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+    .picture{
+        background-color: #f2f2f2;
+    }
+    .listing li{
+        list-style: none;
+        margin-top: 10px;
+        color: white;
+    }
+    .our{
+        color: white; 
+    }
+    .slit{
+        color: white;
+    }
+    .clicking{
+        margin-left: 120px;
+        margin-top: -15px;
+    }
+
+
+    /* ----------testimonial------ */
+.testimonial img{
+    width: 150px !important; 
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.name{
+    color: white;
+}
+.lorm{
+    color: white;
+}
+
+
+/* ----------contact-------- */
+.calling{
+    background-image:url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/06/h6-img-05.jpg)
+    !important;
+    padding-top: 206px !important;
+   padding-bottom: 340px !important; 
+   /* background-image: url(Images/coach-title-img.jpg) !important; */
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+   display: flex;
+}
+.box{
+    border: 1px solid orangered;
+    height: 500px;
+    background: orangered;
+    width: 400px;
+    margin-left: 300px;
+}
+.lines{
+    border: 1px solid white;
+    width: 270px;
+    margin-top: 20px;
+}
+.headings{
+    color: white;
+}
+.detail{
+    color: white;
+}
+.names{
+    color: white;
+}
+.email{
+    color: white;
+}
+.messages{
+    color: white;
+}
+.send{
+    color: white;
+    background: orangered;
+}
+
+
+/* -----------footer------------ */
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    ul{
+    list-style: none;
+    }
+    .footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    }
+    .footer-col{
+    width: 25%;
+    /* padding: 0 15px; */
+    }
+    .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    }
+    .footer-col h4::before{
+    content: '';
+    position: absolute;
+    /* left: 0; */
+    bottom: -10px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    /* margin-left: -40px; */
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer-col .detail{
+    font-size: 14px;
+    /* margin-left: -40px; */
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer-col .detail:hover{
+    color: #ffffff;
+    cursor: pointer;
+    }
+    .middle{
+    color: #bbbbbb;
+    }
+    .middle:hover{
+    cursor: pointer;
+    color: #ffffff;
+    }
+    .footer-col ul li a:hover{
+    color: #ffffff;
+    cursor: pointer;
+    /* padding-left: 10px; */
+    }
+    .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    }
+    .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: red;
+    cursor: pointer;
+    }
+    .last{
+    color: #ffffff;
+    top: 50%;
+    }
+    .last .span{
+    margin-right: 120px;
+    }
+    .h{
+    width: 100%;
+    height: 7px;
+    border: 0 none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    }
+    @media(max-width: 767px){
+    .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 575px){
+    .footer-col {
+    width: 100%;
+    }
+    }
+  
+    .copy-color{
+      background-color:rgb(255,70,18) ;
+      color: #fff;
+    }
+    .pf-font{
+      font-size: 12px;
+    }
+  

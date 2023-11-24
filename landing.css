@@ -1,0 +1,180 @@
+.imagination{
+    background-image:url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/05/landing-rev-img-40.png)
+    !important;
+    padding-top: 206px !important;
+   padding-bottom: 340px !important; 
+   /* background-image: url(Images/coach-title-img.jpg) !important; */
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+   display: flex;
+}
+.head{
+    font-size: 80px;
+    text-align: center;
+    margin-left: 30px; 
+}
+.detail{
+    color: #c9c8c8;
+     margin-left: 90px; 
+}
+.purchase{
+    height: 50px;
+    width: 180px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: orangered;
+    margin-left: 500px; 
+}
+.imagination .girl img{
+    width: 250px !important;
+    margin-top: -80px;
+    margin-left: 350px;
+}
+.book img{
+    width: 120px !important;
+    margin-top: -200px;
+    margin-left: 900px;
+}
+.laptop{
+    width: 180px !important;
+    margin-top: -200px;
+   
+}
+.man{
+    width: 350px !important;
+    margin-top: 80px; 
+    margin-left: 100px; 
+}
+.woman{
+    width: 220px !important;
+    margin-top: -400px;
+    margin-left: 1000px;
+}
+.grouping{
+    width: 250px !important;
+    margin-top: 150px;
+    margin-left: 900px;
+}
+
+/* ----------------acheive----------- */
+.acheive .card:hover{
+    cursor: pointer;
+    transform: translateY(-4%);
+}
+.main{
+    font-size: 50px;
+}
+.line{
+    border: 1px solid orangered;
+    width: 150px;
+    margin-left: 600px;
+}
+
+
+/* -------------events----------- */
+.calender img{
+    width: 250px !important;
+}
+/* .identity{
+    width: 200px !important;
+    margin-top: 50px;
+    margin-left: 400px;
+} */
+.walk{
+    margin-top: -140px;
+}
+.time{
+    width: 220px !important;
+    margin-top: -130px;
+    margin-left: 450px;
+}
+.topic{
+    font-size: 50px;
+}
+.draw{
+    border: 1px solid orangered;
+    width: 150px; 
+}
+.view{
+    height: 50px;
+    width: 180px;
+   
+    color: white;
+    background: orangered; 
+}
+.ever{
+    margin-left: 300px;
+    margin-top: -150px;
+}
+.ever img{
+    width: 250px !important;
+}
+
+/* -------------testimonial------------- */
+.inner{
+    color: white;
+    font-size: 50px;
+}
+.para{
+    color: white;
+}
+/* -----------------modern------------------- */
+.modern{
+    background: #f0ecec;
+}
+.uncle{
+    width: 350px !important;
+}
+.cycle{
+    margin-top: -220px;
+    width: 450px !important;
+    margin-left: 60px;
+}
+.well{
+    width: 250px !important;
+    margin-left: 300px;
+    margin-top: -350px;
+}
+
+
+/* ------------logos--------------- */
+.logos img{
+    width: 250px !important;
+    color: black;
+    margin-top: 50px;
+}
+
+
+/* ----------getting--------- */
+.getting{
+    background-image:url(https://everlead.qodeinteractive.com/wp-content/uploads/2019/05/landing-rev-img-40.png)
+    !important;
+    padding-top: 206px !important;
+   padding-bottom: 340px !important; 
+   /* background-image: url(Images/coach-title-img.jpg) !important; */
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+   display: flex;
+}
+.box{
+    border: 1px solid orangered;
+    height: 400px;
+    width: 1200px;
+    padding: 20px 20px 20px 20px;
+    background: orangered;
+    margin: 60px;
+    color: white;
+}
+.leading{
+    font-size: 80px;
+}
+.purchases{
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 500px; 
+}
